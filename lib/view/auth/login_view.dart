@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:my_mobile_app/components/loading.dart';
 import 'package:my_mobile_app/components/messageHelper.dart';
+import 'package:my_mobile_app/view/auth/register_view.dart';
 
 class LoginView extends StatefulWidget {
   const LoginView({super.key});
@@ -28,7 +29,13 @@ class _LoginViewState extends State<LoginView> {
           children: [
             Text("Don't have an account"),
             TextButton(
-              onPressed: () {},
+              onPressed: () {
+                // ນຳທາງໄປຫາ RegisterView
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => RegisterView()),
+                );
+              },
               child: Text(
                 "Sing up",
                 style: TextStyle(
