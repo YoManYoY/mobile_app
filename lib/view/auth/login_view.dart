@@ -37,7 +37,7 @@ class _LoginViewState extends State<LoginView> {
                 );
               },
               child: Text(
-                "Sing up",
+                "Sign up",
                 style: TextStyle(
                   color: Colors.red,
                 ),
@@ -53,11 +53,26 @@ class _LoginViewState extends State<LoginView> {
             height: size.height,
             width: double.infinity,
             decoration: BoxDecoration(
-              color: Colors.red,
+              color: Colors.blue,
             ),
           ),
           Positioned(
-            top: 90,
+            top: 30,
+            left: 50,
+            right: 50,
+            child: Center(
+              child: Text(
+                "Login to your account",
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+          ),
+          Positioned(
+            top: 70,
             child: SingleChildScrollView(
               // ບໍ່ໃຫ້ແຕກ 404 ເວລາ ຫຍ້ຂະຫຍາຍຈໍ
               child: Container(
@@ -214,7 +229,7 @@ class _LoginViewState extends State<LoginView> {
                                 height: 50,
                                 width: size.width / 1.2,
                                 decoration: BoxDecoration(
-                                    color: Colors.red,
+                                    color: Colors.green,
                                     borderRadius: BorderRadius.circular(10)),
                                 child: Center(
                                   child: Text(

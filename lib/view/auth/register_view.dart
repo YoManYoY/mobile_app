@@ -433,10 +433,10 @@ class _RegisterViewState extends State<RegisterView> {
                               child: InkWell(
                                 onTap: () {
                                   if (formkey.currentState!.validate()) {
-                                    print("====>Success");
+                                    print("====>Register success");
                                     LoadingHepler.Loading(context);
                                     Messagehelper.showMessageBar(
-                                        true, "Success");
+                                        true, "Register Success");
                                   }
                                 },
                                 child: Container(
