@@ -40,7 +40,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: false, // ແມ່ນການເອົາກາ Dubug ອອກ
       scaffoldMessengerKey: Messagehelper.scaffoldMessager, //ຂໍ້ຄວາມແຈ້ງເຕືອນ
       home: HomeView(),
       //home: Scaffold(
