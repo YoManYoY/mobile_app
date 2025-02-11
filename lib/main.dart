@@ -24,6 +24,7 @@ import 'package:my_mobile_app/view/auth/login_view.dart';
 import 'package:my_mobile_app/view/auth/registerForm_view.dart';
 // ignore: unused_import
 import 'package:my_mobile_app/view/auth/register_view.dart';
+import 'package:my_mobile_app/view/home/home_view.dart';
 
 void main() {
   runApp(MyApp()); // flutter ຈະຕ້ອງເວລາຕັ້ງ class
@@ -39,8 +40,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       scaffoldMessengerKey: Messagehelper.scaffoldMessager, //ຂໍ້ຄວາມແຈ້ງເຕືອນ
-      home: RegisterView(),
+      home: HomeView(),
       //home: Scaffold(
       // ສ່ວນຫົວ
       // appBar: AppBar(),
