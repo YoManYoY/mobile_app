@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+// ignore: unused_import
 import 'package:my_mobile_app/components/data.dart';
 import 'package:my_mobile_app/view/home/widget/app_homeview.dart';
 import 'package:my_mobile_app/view/home/widget/product_body.dart';
