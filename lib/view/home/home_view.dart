@@ -1,3 +1,5 @@
+// ignore: unused_import
+import 'package:animated_bottom_navigation_bar/animated_bottom_navigation_bar.dart';
 import 'package:flutter/material.dart';
 // ignore: unused_import
 import 'package:my_mobile_app/components/data.dart';

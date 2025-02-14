@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:my_mobile_app/components/barcodesimple.dart';
+// ignore: unused_import
+import 'package:my_mobile_app/components/bottomNavigatorWidget.dart';
 import 'package:my_mobile_app/components/messageHelper.dart';
 // ignore: depend_on_referenced_packages, unused_import
 import 'package:my_mobile_app/multiWidget/Listview_widget.dart';
@@ -24,6 +27,7 @@ import 'package:my_mobile_app/view/auth/login_view.dart';
 import 'package:my_mobile_app/view/auth/registerForm_view.dart';
 // ignore: unused_import
 import 'package:my_mobile_app/view/auth/register_view.dart';
+// ignore: unused_import
 import 'package:my_mobile_app/view/home/home_view.dart';
 
 void main() {
@@ -42,7 +46,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false, // ແມ່ນການເອົາກາ Dubug ອອກ
       scaffoldMessengerKey: Messagehelper.scaffoldMessager, //ຂໍ້ຄວາມແຈ້ງເຕືອນ
-      home: HomeView(),
+      home: BarcodeScannerSimple(),
       //home: Scaffold(
       // ສ່ວນຫົວ
       // appBar: AppBar(),
