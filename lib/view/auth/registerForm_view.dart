@@ -113,15 +113,14 @@ class _RegisterFormViewState extends State<RegisterFormView> {
                   border: OutlineInputBorder(),
                 ),
                 onTap: () async {
+                  // ignore: unused_local_variable
                   DateTime? pickedDate = await showDatePicker(
                     context: context,
                     initialDate: DateTime.now(),
                     firstDate: DateTime(1900),
                     lastDate: DateTime.now(),
                   );
-                  if (pickedDate != null) {
-                    // You can format the date and set it to the text field
-                  }
+                  // You can format the date and set it to the text field
                 },
                 validator: (value) {
                   if (value == null || value.isEmpty) {
