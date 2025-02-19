@@ -1,5 +1,8 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 import 'package:mobile_scanner/mobile_scanner.dart';
+import 'package:my_mobile_app/components/QRScannerOverray.dart';
 
 class BarcodeScannerSimple extends StatefulWidget {
   const BarcodeScannerSimple({super.key});
@@ -26,6 +29,7 @@ class _BarcodeScannerSimpleState extends State<BarcodeScannerSimple> {
             ),
             onDetect: (capture) {},
           ),
+          QRScannerOverlay(overlayColour: Colors.black.wacity(0.5)),
         ],
       ),
     );

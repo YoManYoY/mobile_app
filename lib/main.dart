@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_mobile_app/components/QRScannerOverray.dart';
 import 'package:my_mobile_app/components/barcodesimple.dart';
 // ignore: unused_import
 import 'package:my_mobile_app/components/bottomNavigatorWidget.dart';
