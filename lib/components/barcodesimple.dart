@@ -29,7 +29,7 @@ class _BarcodeScannerSimpleState extends State<BarcodeScannerSimple> {
             ),
             onDetect: (capture) {},
           ),
-          QRScannerOverlay(overlayColour: Colors.black.wacity(0.5)),
+          QRScannerOverlay(overlayColour: Colors.black.withOpacity(0.5)),
         ],
       ),
     );
